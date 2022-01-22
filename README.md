@@ -17,19 +17,21 @@ There are three encryption methods provided by this service:
 
 Here are some examples of running this program:
 
-`$ node message-mixer.js caesar 4
+```
+$ node message-mixer.js caesar 4
 Enter the message you would like to encrypt...
 > hello world
  
 Here is your encrypted message:
 > lipps asvph`
  
-`$ node message-mixer.js 'reverse'
+$ node message-mixer.js 'reverse'
 Enter the message you would like to encrypt...
 > hello world
  
 Here is your encrypted message:
-> olleh dlrow`
+> olleh dlrow
+```
 
 At present, Message Mixer Inc. sells their encryption service as a program in a single file called **message-mixer.js**. This single file includes:
 
